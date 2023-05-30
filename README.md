@@ -33,3 +33,9 @@ We create query service get all post and its comments in one reqquest
 <img src="./resource/moderation-service2.png"/>
 <img src="./resource/moderation-service-mockup.png"/>
 <img src="./resource/moderation-service-db.png"/>
+
+## Flow
+
+<img src="./resource/moderation-service3.png"/>
+<img src="./resource/moderation-service4.png"/>
+<img src="./resource/moderation-service5.png"/>

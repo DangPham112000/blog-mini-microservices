@@ -17,13 +17,14 @@ app.post("/posts", (req, res) => {
   const id = randomBytes(4).toString("hex");
   const { title } = req.body;
 
-  posts[id] = { id, title };
+  posts[id] = { id, title, status: "pending" };
 
   axios.post("http://localhost:4005/events", {
     type: "PostCreated",
     data: {
       id,
       title,
+      status: "pending",
     },
   });
 
