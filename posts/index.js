@@ -32,7 +32,7 @@ app.post("/posts", (req, res) => {
 });
 
 app.post("/events", (req, res) => {
-  console.log(req.body);
+  console.log("got event");
 
   res.send({});
 });

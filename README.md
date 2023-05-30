@@ -39,3 +39,17 @@ We create query service get all post and its comments in one reqquest
 <img src="./resource/moderation-service3.png"/>
 <img src="./resource/moderation-service4.png"/>
 <img src="./resource/moderation-service5.png"/>
+
+# Dealing with Missing Events
+
+## Service is broken a period of time and then live again
+
+<img src="./resource/missing-event.png"/>
+
+## Service is just implemented after product worked a period of time
+
+<img src="./resource/missing-event2.png"/>
+
+## Solution
+
+<img src="./resource/missing-event3.png"/>
