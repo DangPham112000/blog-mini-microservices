@@ -53,3 +53,39 @@ We create query service get all post and its comments in one reqquest
 ## Solution
 
 <img src="./resource/missing-event3.png"/>
+
+# Docker
+
+<img src="./resource/docker0.png"/>
+<img src="./resource/docker1.png"/>
+<img src="./resource/docker2.png"/>
+
+# K8s: Docker Desktop's Kuberentes
+
+Check the version k8s client and server:
+`kubectl version --short`
+
+## Overview
+
+<img src="./resource/k8s0.png"/>
+
+- K8s will look up in your local machine docker image you built and setup it
+- If it not available, then it will defualt looking out at Dokcer Hub
+
+<img src="./resource/k8s1.png"/>
+<img src="./resource/k8s2.png"/>
+<img src="./resource/k8s3.png"/>
+
+## Creating a pod
+
+`/c/Workspace/blog/infra/k8s/posts.yml`
+<img src="./resource/k8s4.png"/>
+
+execute posts config file with: `kubectl apply -f posts.yaml`
+
+<img src="./resource/k8s5.png"/>
+
+when we run `kubectl exec -it ...`
+
+- if we have more than one container inside this pod. It will ask us which container we wanna execute the command
+- if not, it just run the command on the only container inside the pod
