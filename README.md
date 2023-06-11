@@ -89,3 +89,15 @@ when we run `kubectl exec -it ...`
 
 - if we have more than one container inside this pod. It will ask us which container we wanna execute the command
 - if not, it just run the command on the only container inside the pod
+
+<img src="./resource/k8s6.png"/>
+
+<img src="./resource/k8s7.png"/>
+
+## service and networking
+
+<img src="./resource/k8s8.png"/>
+<img src="./resource/k8s9.png"/>
+<img src="./resource/k8s10.png"/>
+<img src="./resource/k8s11.png"/>
+<img src="./resource/k8s12.png"/>

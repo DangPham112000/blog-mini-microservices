@@ -19,7 +19,7 @@ app.post("/posts", (req, res) => {
 
   posts[id] = { id, title, status: "pending" };
 
-  axios.post("http://localhost:4005/events", {
+  axios.post("http://event-bus-srv:4005/events", {
     type: "PostCreated",
     data: {
       id,
@@ -38,5 +38,6 @@ app.post("/events", (req, res) => {
 });
 
 app.listen(4000, () => {
+  console.log("version 55");
   console.log("POSTS service is listening at port 4000");
 });
